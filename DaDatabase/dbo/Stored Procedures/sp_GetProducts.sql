@@ -9,5 +9,3 @@ SELECT
 	[Image]
 FROM
 	Gems
-
-EXEC sp_GetProducts
