@@ -1,0 +1,55 @@
+﻿<h4>Reviews</h4>
+<blockquote ng-repeat="review in product.reviews">
+    <div><b>Stars: {{review.stars}}</b></div>
+    <div>{{review.body}}</div>
+    <div ng-init="avatar = gravatarURL(review.author)">
+        <cite>By: {{review.author}}</cite>
+        <img ng-src="{{avatar}}" />
+    </div>
+</blockquote>
+
+<form name="reviewForm" ng-controller="ReviewController" ng-submit="reviewForm.$valid && addReview(product)" novalidate>
+    <legend>Write a Review</legend>
+    <blockquote>
+        <div><b>Stars: {{review.stars}}</b></div>
+        <div>{{review.body}}</div>
+        <div >
+        <cite>By: {{review.author}}</cite>
+        </div>
+    </blockquote>
+
+
+    <div class="form-group" ng-class="{'has-error' : reviewForm.rating.$invalid && reviewForm.rating.$dirty}">
+        <label>Rating</label>
+        <select name="rating" ng-model="review.stars" required>
+            <option value="">Enter a rating</option>
+            <option value="1">1 star</option>
+            <option value="2">2 star</option>
+            <option value="3">3 star</option>
+            <option value="4">4 star</option>
+            <option value="5">5 star</option>
+        </select>
+        <span class="text-danger" ng-show="reviewForm.rating.$invalid && reviewForm.rating.$dirty">Please enter a rating</span>
+    </div>
+
+
+    <div class="form-group"  ng-class="{'has-error' : reviewForm.comment.$invalid && reviewForm.comment.$dirty}">
+        <label>Write a Review</label>
+        <textarea name="comment" placeholder="Your review here " class="form-control" ng-model="review.body" required></textarea>
+        <span ng-show="reviewForm.comment.$invalid && reviewForm.comment.$dirty" class="text-danger">Please enter a comment</span>
+    </div>
+
+
+    <div class="form-group" ng-class="{'has-error' : reviewForm.email.$invalid && reviewForm.email.$dirty}">
+        <label> Email:</label>
+        <input name="email"  placeholder="youremail@email.com" class="form-control" ng-model="review.author" type="email" required />
+        <span class="text-danger" ng-show="reviewForm.email.$invalid && reviewForm.email.$dirty">Please enter your email</span>
+    </div>
+
+
+    <div>
+        <div hidden>reviewForm is {{reviewForm.$valid}}</div>
+        <input class="btn btn-primary" type="submit" value="Submit" />
+    </div>
+
+</form>

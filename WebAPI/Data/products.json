@@ -1,0 +1,117 @@
+﻿
+  [
+  {
+    "name": "Dodecahedron",
+    "price": 2.95,
+    "description": "Some gems have hidden qualities beyond their lusture, beyond their shine.... Dodecahedron is one of those gems",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "Dodecahedron.png",
+    "reviews": [
+      {
+
+        "stars": 5,
+        "body": "I love this product",
+        "author": "James Jameson"
+      }
+    ]
+  },
+  {
+    "name": "Ruby",
+    "price": 49.95,
+    "description": "Rubys are for ballers and kings",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "ruby.png",
+    "reviews": [
+      {
+
+        "stars": 4,
+        "body": "Red like the blood of my enemies",
+        "author": "Khrone the Blood God"
+      }
+    ]
+  },
+  {
+    "name": "Diamond",
+    "price": 99.95,
+    "description": "Dont waste diamonds on hoes -Minecraft",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "diamond.png",
+    "reviews": [
+      {
+
+        "stars": 5,
+        "body": "I slept with my wife's sister and this seems to have fixed things",
+        "author": "Cheaty McCheaterson"
+      }
+    ]
+  },
+  {
+    "name": "Opal",
+    "price": 1.95,
+    "description": "Like the name of my girlfriends cat",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "opal.png",
+    "reviews": [
+      {
+
+        "stars": 3,
+        "body": "I'm really more of a dog person",
+        "author": "Clayton Halaska"
+      }
+    ]
+  },
+  {
+    "name": "Gold Bars",
+    "price": 999.95,
+    "description": "Heavy enough to beat a grown man to death with",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "goldbars.png",
+    "reviews": [
+      {
+
+        "stars": 1,
+        "body": "I already have way to many of these who would actually shell out money to buy these?!",
+        "author": "King Midas"
+      }
+    ]
+  },
+  {
+    "name": "Chaos Emeralds",
+    "price": 200000.00,
+    "description": "Sonic the Hedgehog is always after them Chaos Emeralds",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "chaos.png",
+    "reviews": [
+      {
+
+        "stars": 4,
+        "body": "Used them to save Earth, four stars since they were the reason earth was in danger in the first place",
+        "author": "claytonhalaska@sbcglobal.net"
+      }
+    ]
+  },
+  {
+    "name": "Sapphire",
+    "price": 299.95,
+    "description": "Like the eyes of a Blue-eyed White Dragon",
+    "canPurchase": true,
+    "soldOut": false,
+    "image": "sapphire.png",
+    "reviews": [
+      {
+
+        "stars": 3,
+        "body": "Not as cool as Cavaleiros do Zodiaco but ok",
+        "author": "Gabe"
+      }
+    ]
+  }
+  ]
+
+
