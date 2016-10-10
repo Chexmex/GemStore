@@ -69,4 +69,7 @@
     <None Include="Scripts\ScriptsIgnoredOnImport.sql" />
     <Build Include="dbo\Stored Procedures\sp_GetReviews.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Scripts\Script.Add.sql" />
+  </ItemGroup>
 </Project>
